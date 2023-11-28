@@ -1,10 +1,10 @@
-import 'assets/index.css'
+import Header from 'components/Header';
 
 function App() {
 
   return (
     <>
-      <p>Hello</p>
+      <Header />
     </>
   )
 }

@@ -8,6 +8,7 @@ export default {
     extend: {
       colors: {
         background: "#151515",
+        panel: "rgba(74, 76, 77, 0.7)",
       }
     },
   },
