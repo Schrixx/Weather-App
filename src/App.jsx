@@ -1,12 +1,12 @@
 import Header from 'components/Header';
-import DayCards from 'components/DayCards';
+import Weather from 'components/Weather';
 
 function App() {
 
   return (
     <>
       <Header />
-      <DayCards />
+      <Weather />
     </>
   )
 }

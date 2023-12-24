@@ -7,7 +7,10 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "#151515",
+        background: "#131214",
+        surface: "#1D1C1F",
+        surfaceOutline: "#2E2D31",
+        surfaceText: "#DDDAE5",
         panel: "rgba(74, 76, 77, 0.7)",
       }
     },
