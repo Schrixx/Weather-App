@@ -6,11 +6,11 @@ const Header = () => {
     return (
         <div className='px-4 max-w-5xl m-auto my-16 tracking-wide'>
             <header className="relative flex justify-center">
-                <div className='absolute top-0 right-0 bottom-0 left-0 -z-10 glassBackground' />
-                <div className="w-full rounded-lg m-8 flex items-center justify-around">
+                <div className='absolute top-0 right-0 bottom-0 left-0 -z-10 bg-surface border-2 border-surfaceOutline rounded-xl' />
+                <div className="w-full m-8 flex items-center justify-around">
                     {/* left header */}
                     <div className='flex items-center'>
-                        <img src={Sunny} className='h-60 w-full object-contain' data-current-icon />
+                        <img src={Sunny} className='h-60 w-auto object-contain' data-current-icon />
                         <div className='flex'>
                             <span className='text-6xl ml-8' data-current-temp>31</span>&deg;
                         </div>

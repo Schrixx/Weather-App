@@ -35,15 +35,19 @@
     .label {
         font-size: 1.1rem;
     }
+
+    .grid-cols-autofit-75px {
+        grid-template-columns: repeat(auto-fit, 75px);
+    }
 }
 
 body {
     margin: 0;
     padding: 0;
     border: 0;
-    background-color: #151515;
+    background-color: #131214;
     font-family: 'Work Sans', sans-serif;
-    color: white;
+    color: #EAE6F2;
     font-weight: 400;
     font-size: 20px;
     overflow-x: hidden;
