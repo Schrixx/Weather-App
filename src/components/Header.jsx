@@ -4,7 +4,7 @@ import { infoGroups } from 'data/infoGroups'
 
 const Header = () => {
     return (
-        <div className='px-4 max-w-5xl m-auto my-16 tracking-wide'>
+        <div className='px-4 max-w-5xl mx-auto my-16 tracking-wide'>
             <header className="relative flex justify-center">
                 <div className='absolute top-0 right-0 bottom-0 left-0 -z-10 bg-surface border-2 border-surfaceOutline rounded-xl' />
                 <div className="w-full m-8 flex items-center justify-around">

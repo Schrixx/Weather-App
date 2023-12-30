@@ -34,7 +34,7 @@ const DayCards = () => {
 
       <template></template>
 
-      <table className='my-16'>
+      <table className='my-16 border-separate rounded-xl'>
         <tbody data-hour-section className='w-full text-center border-spacing-0'>
           <TableRow rowInfo={tempObj} weather={Cloudy} />
           <TableRow rowInfo={tempObj} weather={Cloudy} />
