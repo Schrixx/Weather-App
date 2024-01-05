@@ -1,10 +1,11 @@
 import React from 'react'
+import { v4 as uuidv4 } from 'uuid'
 
 const TableRow = ({ rowInfo, weather }) => {
   const { day, dayValue, temp, fltemp, wind, precip } = rowInfo
 
   return (
-    <tr className='group bg-surfaceOutline odd:bg-surface'>
+    <tr key={uuidv4()} className='group bg-surfaceOutline odd:bg-surface'>
       <td className='p-1 group-first:rounded-tl-xl group-last:rounded-bl-xl'>
         <div>
           <div>{day}</div>
